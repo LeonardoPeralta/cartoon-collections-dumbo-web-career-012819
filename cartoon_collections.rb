@@ -3,8 +3,8 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
-  nums.collect do |x| 
-    x + 1
+  planeteer_calls.collect do |x|
+    x.capitalize << !
   end
 end
 end
